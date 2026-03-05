@@ -1,15 +1,56 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses at UERJ (graduate and undergraduate)
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Teaching / Ensino
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I teach at both undergraduate and graduate levels at the Instituto de Física, UERJ.
 
-{% include courses.liquid %}
+Ministro aulas nos níveis de graduação e pós-graduação no Instituto de Física da UERJ.
+
+---
+
+## Graduate Courses / Disciplinas de Pós-Graduação
+
+| Course / Disciplina                                                | Level                    |
+| ------------------------------------------------------------------ | ------------------------ |
+| Mecânica Quântica (Quantum Mechanics)                              | Pós-Graduação            |
+| Mecânica Estatística (Statistical Mechanics)                       | Pós-Graduação            |
+| Eletromagnetismo (Electromagnetism)                                | Pós-Graduação            |
+| Tópicos em Aspectos Não-Perturbativos da Teoria Quântica de Campos | Pós-Graduação (especial) |
+| Introdução à Informação Quântica em Teoria de Campos               | Pós-Graduação (especial) |
+| Topologia e Geometria em Física                                    | Pós-Graduação (especial) |
+| Teoria de Calibre e Confinamento                                   | Pós-Graduação (especial) |
+
+---
+
+## Undergraduate Courses / Disciplinas de Graduação
+
+| Course / Disciplina |
+| ------------------- |
+| Física Geral        |
+| Mecânica Quântica   |
+| Eletromagnetismo    |
+
+---
+
+## Student Projects / Projetos para Estudantes
+
+I welcome motivated students at all levels (undergraduate PIBIC, Master's, and PhD). Current research topics suitable for student projects include:
+
+Aceito alunos motivados em todos os níveis (PIBIC, Mestrado e Doutorado). Os tópicos de pesquisa atuais adequados para projetos de alunos incluem:
+
+1. **Entanglement entropy in 1D quantum spin chains** (undergraduate/Master's)
+2. **Bell inequalities: from quantum mechanics to quantum field theory** (undergraduate)
+3. **Numerical computation of relative entropy in QFT** (Master's/PhD)
+4. **Bell inequalities in Kitaev lattice models** (Master's/PhD)
+5. **Embezzlement of entanglement in QFT** (PhD)
+
+For inquiries, please contact me by email: msguimaraes [at] uerj.br
+
+Para consultas, entre em contato por e-mail: msguimaraes [at] uerj.br

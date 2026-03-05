@@ -2,33 +2,52 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <a href="https://www.uerj.br">Universidade do Estado do Rio de Janeiro (UERJ)</a> ·
+  Departamento de Física Teórica · Instituto de Física ·
+  <a href="http://www.cnpq.br">CNPq</a> Research Productivity Fellow (Level 2) ·
+  <a href="http://www.uerj.br">Procientista UERJ</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 3007-E</p>
+    <p>Instituto de Física — UERJ</p>
+    <p>Rua São Francisco Xavier, 524</p>
+    <p>Rio de Janeiro, RJ, Brazil</p>
+    <p>msguimaraes [at] uerj.br</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## About / Sobre
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**English:** Marcelo Santos Guimarães is Associate Professor (_Professor Associado_) at the Departamento de Física Teórica, Instituto de Física, Universidade do Estado do Rio de Janeiro (UERJ), and a CNPq Level-2 Research Productivity Fellow. He is also a fellow of the UERJ Prociência program.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+His research focuses on **non-perturbative aspects of quantum field theory**, combining two complementary lines: the [Gribov–Zwanziger approach](https://en.wikipedia.org/wiki/Gribov_ambiguity) to colour confinement in QCD, and the study of **quantum information properties of the field-theory vacuum** — in particular Bell inequalities, entanglement entropy, and relative entropy in relativistic quantum field theory.
+
+He obtained his Bachelor's degree in Physics at UFRJ (2002), and his Master's (2005) and Doctorate (2009, _Magna Cum Laude_) also at UFRJ, under the supervision of Prof. Carlos Wotzasek. He held a postdoctoral position at UERJ (2009–2010) before joining the faculty.
+
+He has **86+ publications** in peer-reviewed journals including _Physical Review D_, _JHEP_, _Nuclear Physics B_, _European Physical Journal C_, and _SciPost Physics_, with over 1,700 citations (INSPIRE-HEP) and h-index 18 (Web of Science). He supervises doctoral and master's students, and teaches graduate courses on non-perturbative QFT and quantum information.
+
+**Português:** Marcelo Santos Guimarães é Professor Associado do Departamento de Física Teórica do Instituto de Física da Universidade do Estado do Rio de Janeiro (UERJ), bolsista de Produtividade em Pesquisa do CNPq (Nível 2) e Procientista da UERJ.
+
+Sua pesquisa concentra-se nos **aspectos não-perturbativos da teoria quântica de campos**, combinando duas linhas complementares: a abordagem de Gribov–Zwanziger para o confinamento de cor na QCD e o estudo das **propriedades de informação quântica do vácuo** em teoria de campos — em particular desigualdades de Bell, entropia de emaranhamento e entropia relativa em teoria quântica de campos relativística.
+
+Obteve sua Licenciatura em Física na UFRJ (2002), Mestrado (2005) e Doutorado (2009, _Magna Cum Laude_) também na UFRJ, sob orientação do Prof. Carlos Wotzasek. Realizou pós-doutorado na UERJ (2009–2010) antes de ingressar no corpo docente.
+
+Possui **mais de 86 publicações** em periódicos internacionais de alto impacto, com mais de 1.700 citações (INSPIRE-HEP) e índice-h 18 (Web of Science).
