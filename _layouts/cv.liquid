@@ -42,15 +42,20 @@ layout: default
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}
+      {% assign render_legacy_cv = false %}
 
       {% if page.cv_format == 'rendercv' %}
         {% assign render_rendercv = true %}
       {% elsif page.cv_format == 'jsonresume' %}
         {% assign render_jsonresume = true %}
+      {% elsif page.cv_format == 'legacy' %}
+        {% assign render_legacy_cv = true %}
       {% else %}
         {% comment %} Legacy behavior: RenderCV takes priority if both exist {% endcomment %}
         {% if site.data.cv and site.data.cv.cv %}
           {% assign render_rendercv = true %}
+        {% elsif site.data.cv and site.data.cv[0] and site.data.cv[0].title %}
+          {% assign render_legacy_cv = true %}
         {% elsif site.data.resume %}
           {% assign render_jsonresume = true %}
         {% endif %}
@@ -383,6 +388,93 @@ layout: default
             </div>
           </div>
         {% endif %}
+
+      {% elsif render_legacy_cv and site.data.cv and site.data.cv[0] and site.data.cv[0].title %}
+        {% comment %} Legacy al-folio CV format from _data/cv.yml {% endcomment %}
+        {% for section in site.data.cv %}
+          <a class="anchor" id="{{ section.title | slugify }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ section.title }}</h3>
+            <div>
+              {% if section.type == 'map' %}
+                <table class="table table-cv table-sm table-borderless">
+                  {% for item in section.contents %}
+                    <tr>
+                      <td class="p-1 pr-2 font-weight-bold">
+                        <b>{{ item.name }}</b>
+                      </td>
+                      <td class="p-1 pl-2 font-weight-light">{{ item.value }}</td>
+                    </tr>
+                  {% endfor %}
+                </table>
+              {% elsif section.type == 'time_table' %}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for entry in section.contents %}
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+                          <table class="table-cv">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  {% if entry.year %}
+                                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                                      {{- entry.year -}}
+                                    </span>
+                                  {% endif %}
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                          {% if entry.title %}
+                            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+                          {% endif %}
+                          {% if entry.institution %}
+                            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+                          {% endif %}
+                          {% if entry.description %}
+                            <ul class="items">
+                              {% for desc in entry.description %}
+                                <li>
+                                  <span class="item">{{ desc }}</span>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% elsif section.type == 'nested_list' %}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for group in section.contents %}
+                    <li class="list-group-item">
+                      <strong>{{ group.title }}</strong>
+                      {% if group.items %}
+                        <ul class="items">
+                          {% for item in group.items %}
+                            <li>
+                              <span class="item">{{ item }}</span>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% elsif section.type == 'list' %}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for item in section.contents %}
+                    <li class="list-group-item">{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
 
       {% else %}
         <p>No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.</p>
