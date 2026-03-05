@@ -1,9 +1,31 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"PRD":
+  url: https://journals.aps.org/prd/
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JHEP":
+  url: https://link.springer.com/journal/13130
+  color: "#b31b1b"
 
-"Vision":
-  color: "#009f36"
+"NPB":
+  url: https://www.sciencedirect.com/journal/nuclear-physics-b
+  color: "#0057a8"
+
+"EPJC":
+  url: https://www.springer.com/journal/10052
+  color: "#0057a8"
+
+"SciPost":
+  url: https://scipost.org/SciPostPhys
+  color: "#2e7d32"
+
+"PLB":
+  url: https://www.sciencedirect.com/journal/physics-letters-b
+  color: "#0057a8"
+
+"PRE":
+  url: https://journals.aps.org/pre/
+  color: "#b31b1b"
+
+"Annals":
+  url: https://www.sciencedirect.com/journal/annals-of-physics
+  color: "#6a1b9a"
