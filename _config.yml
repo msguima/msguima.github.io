@@ -8,12 +8,14 @@ middle_name: Santos
 last_name: Guimarães
 email: msguimaraes@uerj.br
 description: >
-  Associate Professor of Theoretical Physics at UERJ. CNPq Level-2 Research Productivity Fellow.
-  Research at the interface of non-perturbative quantum field theory and quantum information.
+  Associate Professor of Theoretical Physics at UERJ. Research in non-perturbative quantum field theory,
+  Bell inequalities and quantum information in QFT, and colour confinement in QCD.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: quantum field theory, quantum information, Bell inequalities, entanglement, Gribov problem, UERJ, theoretical physics
+keywords: quantum field theory, Bell inequalities, entanglement entropy, Gribov-Zwanziger, confinement, QCD, UERJ, theoretical physics
+contact_note: >
+  Feel free to reach out by e-mail. I am happy to discuss research and student opportunities.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -67,8 +69,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -90,8 +92,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Marcelo Guimarães # blog_name will be displayed in your blog page
+blog_description: Theoretical physics research notes
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -278,8 +280,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Guimarães, Guimaraes]
-  first_name: [Marcelo, M.S., M. S.]
+  last_name: [Guimarães]
+  first_name: [Marcelo, M., M. S., "Marcelo Santos"]
 
   style: apa
   locale: en
