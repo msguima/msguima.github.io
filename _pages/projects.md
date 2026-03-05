@@ -1,31 +1,31 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description: Research lines, current projects, and open directions
+title: Projects
+permalink: /projects/
+description: Selected research projects and current directions
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
-## Research Overview
+This page gathers selected projects from my research program in non-perturbative quantum field theory and quantum information.
 
-Non-perturbative QFT + quantum information.
+<div class="projects">
+{% assign sorted_projects = site.projects | sort: "importance" | reverse %}
 
-## Main Research Lines
-- Confinement/Gribov
-- Bell inequalities in QFT
-- Relative entropy/entanglement
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      {% for project in sorted_projects %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
-## Current Program (2026–2029)
-- Bullet points for current projects...
+## Open Directions
 
-## Open Problems
-1. Problem 1
-2. Problem 2
-3. Problem 3
-4. Problem 4
-5. Problem 5
-6. Problem 6
+- Bell-inequality diagnostics for confinement in non-Abelian gauge theories.
+- Relative entropy and modular Hamiltonians in interacting quantum field theories.
+- Entanglement embezzlement protocols in type III von Neumann algebras.
+- Numerical and symbolic tools for quantum-information observables in QFT.
 
-## Collaboration Note
-For collaboration inquiries, please contact us.
+If you are interested in collaboration, student supervision, or postdoctoral opportunities, please email me at `msguimaraes [at] uerj.br`.
