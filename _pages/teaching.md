@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 permalink: /teaching/
 description: Courses at UERJ (graduate and undergraduate)
-nav: true
+nav: false
 nav_order: 4
 ---
 
