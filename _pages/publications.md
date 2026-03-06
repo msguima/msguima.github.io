@@ -7,14 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
+Recent work (2023–2026) emphasizes two connected lines: quantum-information observables in relativistic QFT and non-perturbative gauge-theory dynamics.
 
 {% include bib_search.liquid %}
 
 <div class="publications">
-
 {% bibliography %}
-
 </div>
