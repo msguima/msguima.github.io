@@ -21,11 +21,11 @@ This page gathers selected projects from my research program in non-perturbative
   </div>
 </div>
 
-## Open Directions
+## Ongoing Priorities (2026)
 
 - Bell-inequality diagnostics for confinement in non-Abelian gauge theories.
-- Relative entropy and modular Hamiltonians in interacting quantum field theories.
-- Entanglement embezzlement protocols in type III von Neumann algebras.
-- Numerical and symbolic tools for quantum-information observables in QFT.
+- Relative entropy and modular Hamiltonian methods in interacting QFT.
+- Entanglement-embezzlement protocols in type-III von Neumann algebras.
+- Symbolic and numerical tools for QFT quantum-information observables.
 
-If you are interested in collaboration, student supervision, or postdoctoral opportunities, please email me at `msguimaraes [at] uerj.br`.
+If you are interested in collaboration, supervision (M.Sc./Ph.D.), or postdoctoral opportunities, please contact me at `msguimaraes [at] uerj.br`.

@@ -36,18 +36,18 @@ latest_posts:
 
 ## About / Sobre
 
-**English:** Marcelo Santos Guimarães is Associate Professor (_Professor Associado_) at the Departamento de Física Teórica, Instituto de Física, Universidade do Estado do Rio de Janeiro (UERJ), and a CNPq Level-2 Research Productivity Fellow. He is also a fellow of the UERJ Prociência program.
+**English:** Marcelo Santos Guimarães is Associate Professor at the Department of Theoretical Physics, Institute of Physics, Universidade do Estado do Rio de Janeiro (UERJ). He is a CNPq Research Productivity Fellow (Level 2) and a UERJ Prociência fellow.
 
-His research focuses on **non-perturbative aspects of quantum field theory**, combining two complementary lines: the [Gribov–Zwanziger approach](https://en.wikipedia.org/wiki/Gribov_ambiguity) to colour confinement in QCD, and the study of **quantum information properties of the field-theory vacuum** — in particular Bell inequalities, entanglement entropy, and relative entropy in relativistic quantum field theory.
+His research centers on **non-perturbative quantum field theory**, connecting two main programs: (i) the Gribov–Zwanziger approach to confinement in gauge theories and (ii) **quantum information in relativistic QFT**, especially Bell inequalities, entanglement entropy, and relative entropy.
 
-He obtained his Bachelor's degree in Physics at UFRJ (2002), and his Master's (2005) and Doctorate (2009, _Magna Cum Laude_) also at UFRJ, under the supervision of Prof. Carlos Wotzasek. He held a postdoctoral position at UERJ (2009–2010) before joining the faculty.
+He received his B.Sc. in Physics from UFRJ (2002), and both his M.Sc. (2005) and Ph.D. (2009, _Magna Cum Laude_) from UFRJ under the supervision of Prof. Carlos Wotzasek. He held a postdoctoral position at UERJ (2009–2010) and then joined the faculty.
 
-He has **86+ publications** in peer-reviewed journals including _Physical Review D_, _JHEP_, _Nuclear Physics B_, _European Physical Journal C_, and _SciPost Physics_, with over 1,700 citations (INSPIRE-HEP) and h-index 18 (Web of Science). He supervises doctoral and master's students, and teaches graduate courses on non-perturbative QFT and quantum information.
+His work includes **86+ peer-reviewed publications** in journals such as _Physical Review D_, _JHEP_, _Nuclear Physics B_, _European Physical Journal C_, and _SciPost Physics_. He supervises M.Sc. and Ph.D. students and teaches graduate-level courses in QFT and quantum information.
 
 **Português:** Marcelo Santos Guimarães é Professor Associado do Departamento de Física Teórica do Instituto de Física da Universidade do Estado do Rio de Janeiro (UERJ), bolsista de Produtividade em Pesquisa do CNPq (Nível 2) e Procientista da UERJ.
 
-Sua pesquisa concentra-se nos **aspectos não-perturbativos da teoria quântica de campos**, combinando duas linhas complementares: a abordagem de Gribov–Zwanziger para o confinamento de cor na QCD e o estudo das **propriedades de informação quântica do vácuo** em teoria de campos — em particular desigualdades de Bell, entropia de emaranhamento e entropia relativa em teoria quântica de campos relativística.
+Sua pesquisa concentra-se em **teoria quântica de campos não-perturbativa**, articulando duas frentes principais: (i) a abordagem de Gribov–Zwanziger para o confinamento em teorias de calibre e (ii) **informação quântica em TQC relativística**, em especial desigualdades de Bell, entropia de emaranhamento e entropia relativa.
 
-Obteve sua Licenciatura em Física na UFRJ (2002), Mestrado (2005) e Doutorado (2009, _Magna Cum Laude_) também na UFRJ, sob orientação do Prof. Carlos Wotzasek. Realizou pós-doutorado na UERJ (2009–2010) antes de ingressar no corpo docente.
+Graduou-se em Física pela UFRJ (2002), obteve Mestrado (2005) e Doutorado (2009, _Magna Cum Laude_) também pela UFRJ, sob orientação do Prof. Carlos Wotzasek. Realizou pós-doutorado na UERJ (2009–2010), ingressando posteriormente no corpo docente.
 
-Possui **mais de 86 publicações** em periódicos internacionais de alto impacto, com mais de 1.700 citações (INSPIRE-HEP) e índice-h 18 (Web of Science).
+Sua produção científica inclui **mais de 86 artigos** em periódicos internacionais e orientação de estudantes de Mestrado e Doutorado.
