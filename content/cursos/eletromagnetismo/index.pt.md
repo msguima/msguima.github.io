@@ -1,6 +1,6 @@
 ---
 title: "Eletromagnetismo"
-level: "graduacao"
+level: "pós-graduação"
 semester: ""
 schedule: ""
 room: ""
