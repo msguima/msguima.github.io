@@ -4,7 +4,7 @@ title: Group
 permalink: /group/
 description: Research group — current and former members
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## Research Group / Grupo de Pesquisa

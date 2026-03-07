@@ -5,6 +5,8 @@ permalink: /projects/
 description: Selected research projects and current directions
 nav: true
 nav_order: 5
+display_categories: [quantum information, confinement, numerical methods]
+horizontal: false
 ---
 
 This page gathers selected projects from my research program in non-perturbative quantum field theory and quantum information.
