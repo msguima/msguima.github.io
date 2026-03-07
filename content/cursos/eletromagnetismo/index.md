@@ -1,6 +1,6 @@
 ---
 title: "Electromagnetism"
-level: "graduate"
+level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
