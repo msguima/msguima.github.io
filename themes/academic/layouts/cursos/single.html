@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="page-wrap">
   <div class="breadcrumb">
-    <a href="/">Início</a> <span>›</span>
-    <a href="/cursos/">Cursos</a> <span>›</span>
+    <a href="{{ .Site.Home.RelPermalink }}">{{ if eq .Lang "pt" }}Início{{ else }}Home{{ end }}</a> <span>›</span>
+    <a href="{{ "cursos/" | relLangURL }}">{{ if eq .Lang "pt" }}Cursos{{ else }}Courses{{ end }}</a> <span>›</span>
     {{ .Title }}
   </div>
 
@@ -14,25 +14,25 @@
   <div class="course-meta">
     {{ with .Params.level }}
     <div class="course-meta-item">
-      <strong>Nível</strong>
-      {{ if eq . "pos-graduacao" }}Pós-graduação{{ else }}Graduação{{ end }}
+      <strong>{{ if eq $.Lang "pt" }}Nível{{ else }}Level{{ end }}</strong>
+      {{ if eq . "pos-graduacao" }}{{ if eq $.Lang "pt" }}Pós-graduação{{ else }}Graduate{{ end }}{{ else }}{{ if eq $.Lang "pt" }}Graduação{{ else }}Undergraduate{{ end }}{{ end }}
     </div>
     {{ end }}
     {{ with .Params.semester }}
     <div class="course-meta-item">
-      <strong>Semestre</strong>
+      <strong>{{ if eq $.Lang "pt" }}Semestre{{ else }}Semester{{ end }}</strong>
       {{ . }}
     </div>
     {{ end }}
     {{ with .Params.schedule }}
     <div class="course-meta-item">
-      <strong>Horário</strong>
+      <strong>{{ if eq $.Lang "pt" }}Horário{{ else }}Schedule{{ end }}</strong>
       {{ . }}
     </div>
     {{ end }}
     {{ with .Params.room }}
     <div class="course-meta-item">
-      <strong>Sala</strong>
+      <strong>{{ if eq $.Lang "pt" }}Sala{{ else }}Room{{ end }}</strong>
       {{ . }}
     </div>
     {{ end }}
@@ -44,9 +44,13 @@
 
   <!-- Lecture Notes -->
   {{ with .Params.notas }}
-  <h2>Notas de Aula</h2>
+  <h2>{{ if eq $.Lang "pt" }}Notas de Aula{{ else }}Lecture Notes{{ end }}</h2>
   <table>
-    <thead><tr><th>#</th><th>Tópico</th><th>Arquivo</th></tr></thead>
+    <thead><tr>
+      <th>#</th>
+      <th>{{ if eq $.Lang "pt" }}Tópico{{ else }}Topic{{ end }}</th>
+      <th>{{ if eq $.Lang "pt" }}Arquivo{{ else }}File{{ end }}</th>
+    </tr></thead>
     <tbody>
     {{ range . }}
     <tr>
@@ -61,9 +65,14 @@
 
   <!-- Problem Sets -->
   {{ with .Params.listas }}
-  <h2>Listas de Exercícios</h2>
+  <h2>{{ if eq $.Lang "pt" }}Listas de Exercícios{{ else }}Problem Sets{{ end }}</h2>
   <table>
-    <thead><tr><th>#</th><th>Tópico</th><th>Arquivo</th><th>Prazo</th></tr></thead>
+    <thead><tr>
+      <th>#</th>
+      <th>{{ if eq $.Lang "pt" }}Tópico{{ else }}Topic{{ end }}</th>
+      <th>{{ if eq $.Lang "pt" }}Arquivo{{ else }}File{{ end }}</th>
+      <th>{{ if eq $.Lang "pt" }}Prazo{{ else }}Deadline{{ end }}</th>
+    </tr></thead>
     <tbody>
     {{ range . }}
     <tr>
@@ -79,9 +88,13 @@
 
   <!-- Exam Dates -->
   {{ with .Params.provas }}
-  <h2>Datas das Provas</h2>
+  <h2>{{ if eq $.Lang "pt" }}Datas das Provas{{ else }}Exam Dates{{ end }}</h2>
   <table>
-    <thead><tr><th>Prova</th><th>Data</th><th>Observação</th></tr></thead>
+    <thead><tr>
+      <th>{{ if eq $.Lang "pt" }}Prova{{ else }}Exam{{ end }}</th>
+      <th>{{ if eq $.Lang "pt" }}Data{{ else }}Date{{ end }}</th>
+      <th>{{ if eq $.Lang "pt" }}Observação{{ else }}Note{{ end }}</th>
+    </tr></thead>
     <tbody>
     {{ range . }}
     <tr>

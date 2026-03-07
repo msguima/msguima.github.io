@@ -11,11 +11,11 @@
   {{ $undergrad := where .Pages "Params.level" "graduacao" }}
 
   {{ if $grad }}
-  <h2>Pós-Graduação</h2>
+  <h2>{{ if eq .Lang "pt" }}Pós-Graduação{{ else }}Graduate{{ end }}</h2>
   <div class="course-grid">
     {{ range $grad }}
     <a href="{{ .RelPermalink }}" class="course-card">
-      <span class="course-level grad">Pós-graduação</span>
+      <span class="course-level grad">{{ if eq .Lang "pt" }}Pós-graduação{{ else }}Graduate{{ end }}</span>
       <h3>{{ .Title }}</h3>
       {{ with .Params.semester }}<span class="text-sm text-muted">{{ . }}</span>{{ end }}
     </a>
@@ -24,11 +24,11 @@
   {{ end }}
 
   {{ if $undergrad }}
-  <h2>Graduação</h2>
+  <h2>{{ if eq .Lang "pt" }}Graduação{{ else }}Undergraduate{{ end }}</h2>
   <div class="course-grid">
     {{ range $undergrad }}
     <a href="{{ .RelPermalink }}" class="course-card">
-      <span class="course-level undergrad">Graduação</span>
+      <span class="course-level undergrad">{{ if eq .Lang "pt" }}Graduação{{ else }}Undergraduate{{ end }}</span>
       <h3>{{ .Title }}</h3>
       {{ with .Params.semester }}<span class="text-sm text-muted">{{ . }}</span>{{ end }}
     </a>

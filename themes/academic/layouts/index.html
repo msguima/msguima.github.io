@@ -6,7 +6,7 @@
     <img src="{{ .Site.Params.photo }}" alt="Foto de {{ .Site.Params.author }}" class="hero-photo">
     <div class="hero-text">
       <h1>Marcelo S. Guimarães</h1>
-      <div class="hero-subtitle">{{ if eq .Lang "pt" }}Professor Associado — {{ end }}{{ .Site.Params.department }}</div>
+      <div class="hero-subtitle">{{ if eq .Lang "pt" }}Professor Associado — {{ else }}Associate Professor — {{ end }}{{ .Site.Params.department }}</div>
       <div class="hero-subtitle">{{ .Site.Params.institution }}</div>
       <div class="hero-tagline">{{ .Site.Params.tagline }}</div>
       <div class="hero-links">
