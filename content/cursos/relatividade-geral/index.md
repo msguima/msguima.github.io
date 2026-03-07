@@ -1,6 +1,6 @@
 ---
 title: "General Relativity"
-level: "pos-graduacao"
+level: "graduacao"
 semester: ""
 schedule: ""
 room: ""

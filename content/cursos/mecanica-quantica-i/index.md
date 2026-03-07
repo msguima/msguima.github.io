@@ -1,6 +1,6 @@
 ---
 title: "Quantum Mechanics I"
-level: "graduacao"
+level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""

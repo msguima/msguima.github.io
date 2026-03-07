@@ -1,6 +1,6 @@
 ---
 title: "Relatividade Geral"
-level: "pos-graduacao"
+level: "graduacao"
 semester: ""
 schedule: ""
 room: ""

@@ -1,6 +1,6 @@
 ---
 title: "Mecânica Quântica I"
-level: "graduacao"
+level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
