@@ -1,24 +1,24 @@
 ---
 title: "Links"
-subtitle: "Links úteis e recursos"
+subtitle: "Useful links and resources"
 ---
 
-## Institucional
+## Institutional
 
-- [UERJ — Universidade do Estado do Rio de Janeiro](https://www.uerj.br/)
-- [Instituto de Física — UERJ](https://www.if.uerj.br/)
-- [Departamento de Física Teórica — DFT](https://www.if.uerj.br/)
-- [Programa de Pós-Graduação em Física — PGFIS](https://www.if.uerj.br/pos-graduacao/)
-- [UNIPOSRIO — Exame Unificado](http://uniposrio-fisica.cbpf.br/)
+- [UERJ — Rio de Janeiro State University](https://www.uerj.br/)
+- [Institute of Physics — UERJ](https://www.if.uerj.br/)
+- [Department of Theoretical Physics — DFT](https://www.if.uerj.br/)
+- [Graduate Programme in Physics — PGFIS](https://www.if.uerj.br/pos-graduacao/)
+- [UNIPOSRIO — Unified Graduate Entrance Exam](http://uniposrio-fisica.cbpf.br/)
 
-## Bases de Dados e Preprints
+## Databases & Preprints
 
-- [arXiv.org](https://arxiv.org/) — servidor de preprints
-- [INSPIRE-HEP](https://inspirehep.net/) — base de dados em física de altas energias
+- [arXiv.org](https://arxiv.org/) — preprint server
+- [INSPIRE-HEP](https://inspirehep.net/) — high-energy physics literature database
 - [Google Scholar](https://scholar.google.com/)
-- [Plataforma Lattes / CNPq](http://lattes.cnpq.br/)
+- [Lattes Platform / CNPq](http://lattes.cnpq.br/)
 
-## Preprints — Áreas Relevantes
+## Preprints — Relevant Areas
 
 - [hep-th — High Energy Physics: Theory](https://arxiv.org/list/hep-th/new)
 - [hep-ph — High Energy Physics: Phenomenology](https://arxiv.org/list/hep-ph/new)
@@ -26,21 +26,15 @@ subtitle: "Links úteis e recursos"
 - [quant-ph — Quantum Physics](https://arxiv.org/list/quant-ph/new)
 - [cond-mat — Condensed Matter](https://arxiv.org/list/cond-mat/new)
 
-## Agências de Fomento
+## Funding Agencies
 
 - [CNPq](https://www.gov.br/cnpq/)
 - [CAPES](https://www.gov.br/capes/)
 - [FAPERJ](https://www.faperj.br/)
 
-## Ferramentas e Software
+## Tools & Software
 
-- [Overleaf](https://www.overleaf.com/) — editor LaTeX online
+- [Overleaf](https://www.overleaf.com/) — online LaTeX editor
 - [Mathematica / Wolfram](https://www.wolfram.com/mathematica/)
 - [Python](https://www.python.org/) — NumPy, SciPy, Matplotlib
-- [Zotero](https://www.zotero.org/) — gerenciador de referências
-
-## Colaboradores — Páginas
-
-- [David Dudal — Ghent University](https://www.ugent.be/)
-- [Silvio Paolo Sorella — UERJ](https://www.if.uerj.br/)
-- [Marcela Peláez — Universidad de la República](https://www.fing.edu.uy/)
+- [Zotero](https://www.zotero.org/) — reference manager

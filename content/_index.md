@@ -1,9 +1,9 @@
 ---
-title: "Início"
+title: "Home"
 ---
 
-Sou Professor Associado no [Departamento de Física Teórica](https://www.if.uerj.br/) do Instituto de Física da [Universidade do Estado do Rio de Janeiro (UERJ)](https://www.uerj.br/) e Bolsista de Produtividade em Pesquisa do CNPq (Nível 2). Obtive meu doutorado pela UFRJ em 2009 (*Magna Cum Laude*) e sou membro permanente do corpo docente da UERJ desde 2010.
+I am an Associate Professor at the [Department of Theoretical Physics](https://www.if.uerj.br/), Institute of Physics, [Rio de Janeiro State University (UERJ)](https://www.uerj.br/), and a CNPq Research Productivity Fellow (Level 2). I received my Ph.D. from UFRJ in 2009 (*Magna Cum Laude*) and have been a permanent faculty member at UERJ since 2010.
 
-Minha pesquisa aborda aspectos não-perturbativos da teoria quântica de campos a partir de duas perspectivas complementares. Na primeira, trabalho com o **problema de Gribov** em teorias de gauge não-abelianas e o formalismo **Gribov–Zwanziger Refinado (RGZ)** para o confinamento em QCD. Na segunda linha, mais recente, investigo propriedades de **informação quântica** — desigualdades de Bell-CHSH e Mermin, entropia relativa de Araki–Uhlmann, e medidas de emaranhamento — em teoria quântica de campos relativística, utilizando operadores de Weyl e a teoria modular de Tomita–Takesaki.
+My research addresses non-perturbative aspects of quantum field theory from two complementary perspectives. In the first, I work on the **Gribov problem** in non-abelian gauge theories and the **Refined Gribov–Zwanziger (RGZ)** framework for confinement in QCD. In the second, more recent line, I investigate **quantum information** properties — Bell-CHSH and Mermin inequality violations, Araki–Uhlmann relative entropy, and entanglement measures — in relativistic quantum field theory, using Weyl operators and Tomita–Takesaki modular theory.
 
-Publiquei mais de 86 artigos em periódicos internacionais com revisão por pares (índice-h 18, Web of Science) e oriento estudantes de doutorado e mestrado em ambas as linhas de pesquisa. Sou também bolsista Prociência da UERJ e participante do programa CAPES-PrInt em interações fortes.
+I have published over 86 articles in international peer-reviewed journals (h-index 18, Web of Science) and supervise doctoral and master's students in both research lines. I am also a UERJ Prociência fellow and a participant in the CAPES-PrInt programme on strong interactions.

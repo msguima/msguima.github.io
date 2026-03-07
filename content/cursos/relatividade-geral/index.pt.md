@@ -1,16 +1,16 @@
 ---
-title: "General Relativity"
+title: "Relatividade Geral"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Syllabus
+## Ementa
 
-Foundations of general relativity. Differential geometry: manifolds, tensors, connections, curvature. Einstein's equations. Schwarzschild and Kerr solutions. Gravitational waves. Cosmology.
+Fundamentos de relatividade geral. Geometria diferencial: variedades, tensores, conexão, curvatura. Equações de Einstein. Soluções de Schwarzschild e Kerr. Ondas gravitacionais. Cosmologia.
 
-## Bibliography
+## Bibliografia
 
 - S. M. Carroll, *Spacetime and Geometry*, Cambridge (2019)
 - R. M. Wald, *General Relativity*, Chicago (1984)

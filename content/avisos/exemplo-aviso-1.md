@@ -1,6 +1,6 @@
 ---
-title: "Bem-vindo ao novo site"
+title: "Welcome to the new website"
 date: 2026-03-07
 ---
 
-Este é o novo site do Prof. Marcelo S. Guimarães. Materiais de cursos, informações sobre pesquisa e orientação estão disponíveis nas seções correspondentes.
+This is the new website of Prof. Marcelo S. Guimarães. Course materials, research information, and supervision opportunities are available in the corresponding sections.

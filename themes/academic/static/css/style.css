@@ -185,6 +185,29 @@ tbody tr:hover { background: var(--gray-50); }
   background: rgba(255,255,255,0.12);
 }
 
+/* Language switcher */
+.lang-switch {
+  margin-left: 0.5rem;
+  padding-left: 0.8rem;
+  border-left: 1px solid rgba(255,255,255,0.2);
+}
+.lang-btn {
+  display: inline-block;
+  color: var(--blue-300) !important;
+  padding: 0.3rem 0.6rem !important;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius);
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+  transition: all var(--transition);
+}
+.lang-btn:hover {
+  color: #fff !important;
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.4);
+}
+
 /* Hamburger menu for mobile */
 .nav-toggle {
   display: none;

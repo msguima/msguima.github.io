@@ -1,17 +1,16 @@
 ---
-title: "Mecânica Analítica"
+title: "Analytical Mechanics"
 level: "graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Formalismo Lagrangiano. Princípio de Hamilton. Formalismo Hamiltoniano. Transformações canônicas. Equação de Hamilton-Jacobi. Pequenas oscilações.
+Lagrangian formalism. Hamilton's principle. Hamiltonian formalism. Canonical transformations. Hamilton-Jacobi equation. Small oscillations.
 
-## Bibliografia
+## Bibliography
 
-- H. Goldstein, C. Poole e J. Safko, *Classical Mechanics*, Addison-Wesley (2001)
-- L. D. Landau e E. M. Lifshitz, *Mechanics*, Butterworth-Heinemann (1976)
-- J. V. José e E. J. Saletan, *Classical Dynamics: A Contemporary Approach*, Cambridge (1998)
+- H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, Addison-Wesley (2001)
+- L. D. Landau & E. M. Lifshitz, *Mechanics*, Butterworth-Heinemann (1976)

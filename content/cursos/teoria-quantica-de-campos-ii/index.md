@@ -1,17 +1,17 @@
 ---
-title: "Teoria Quântica de Campos II"
+title: "Quantum Field Theory II"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Teoria de renormalização. Grupo de renormalização. Quebra espontânea de simetria e mecanismo de Higgs. Quantização de teorias de gauge não-abelianas. QCD: liberdade assintótica. Introdução a anomalias.
+Renormalization theory. Renormalization group. Spontaneous symmetry breaking and the Higgs mechanism. Quantization of non-abelian gauge theories. QCD: asymptotic freedom. Introduction to anomalies.
 
-## Bibliografia
+## Bibliography
 
-- M. E. Peskin e D. V. Schroeder, *An Introduction to Quantum Field Theory*, Westview Press (1995)
+- M. E. Peskin & D. V. Schroeder, *An Introduction to Quantum Field Theory*, Westview Press (1995)
 - S. Weinberg, *The Quantum Theory of Fields, Vols. I–II*, Cambridge (1995–1996)
 - L. H. Ryder, *Quantum Field Theory*, Cambridge (1996)

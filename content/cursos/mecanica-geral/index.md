@@ -1,17 +1,16 @@
 ---
-title: "Mecânica Geral"
+title: "General Mechanics"
 level: "graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Mecânica newtoniana avançada. Leis de conservação. Oscilações. Corpo rígido. Gravitação e problema de Kepler. Referenciais não-inerciais.
+Advanced Newtonian mechanics. Conservation laws. Oscillations. Rigid body. Gravitation and the Kepler problem. Non-inertial reference frames.
 
-## Bibliografia
+## Bibliography
 
 - J. R. Taylor, *Classical Mechanics*, University Science Books (2005)
-- S. T. Thornton e J. B. Marion, *Classical Dynamics of Particles and Systems*, Brooks/Cole (2003)
-- L. D. Landau e E. M. Lifshitz, *Mechanics*, Butterworth-Heinemann (1976)
+- S. T. Thornton & J. B. Marion, *Classical Dynamics of Particles and Systems*, Brooks/Cole (2003)

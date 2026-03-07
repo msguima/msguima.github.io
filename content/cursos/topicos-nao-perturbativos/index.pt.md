@@ -1,16 +1,16 @@
 ---
-title: "Topics: Non-Perturbative Aspects of QFT"
+title: "Tópicos: Aspectos Não-Perturbativos em TQC"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Syllabus
+## Ementa
 
-Advanced topics in non-perturbative quantum field theory: Gribov problem, Gribov–Zwanziger framework, confining propagators, physical content of QCD in the non-perturbative regime.
+Tópicos avançados em aspectos não-perturbativos da teoria quântica de campos: problema de Gribov, formalismo de Gribov–Zwanziger, propagadores confinantes, conteúdo físico da QCD no regime não-perturbativo.
 
-## Bibliography
+## Bibliografia
 
 - J. Greensite, *An Introduction to the Confinement Problem*, Springer (2011)
 - V. N. Gribov, *Quantization of non-Abelian gauge theories*, Nucl. Phys. B **139**, 1 (1978)

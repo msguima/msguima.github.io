@@ -1,17 +1,17 @@
 ---
-title: "Mecânica Quântica II"
+title: "Quantum Mechanics II"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Teoria de perturbação dependente e independente do tempo. Espalhamento. Partículas idênticas e segunda quantização. Aproximação WKB. Introdução à equação de Dirac.
+Time-dependent and time-independent perturbation theory. Scattering. Identical particles and second quantization. WKB approximation. Introduction to the Dirac equation.
 
-## Bibliografia
+## Bibliography
 
-- J. J. Sakurai e J. Napolitano, *Modern Quantum Mechanics*, Cambridge (2020)
+- J. J. Sakurai & J. Napolitano, *Modern Quantum Mechanics*, Cambridge (2020)
 - R. Shankar, *Principles of Quantum Mechanics*, Springer (1994)
 - L. E. Ballentine, *Quantum Mechanics: A Modern Development*, World Scientific (1998)

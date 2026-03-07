@@ -1,17 +1,16 @@
 ---
-title: "Eletromagnetismo"
+title: "Electromagnetism"
 level: "graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Eletrostática. Magnetostática. Eletrodinâmica. Equações de Maxwell. Ondas eletromagnéticas. Radiação. Formulação relativística do eletromagnetismo.
+Electrostatics. Magnetostatics. Electrodynamics. Maxwell's equations. Electromagnetic waves. Radiation. Relativistic formulation of electromagnetism.
 
-## Bibliografia
+## Bibliography
 
 - D. J. Griffiths, *Introduction to Electrodynamics*, Cambridge (2017)
 - J. D. Jackson, *Classical Electrodynamics*, Wiley (1998)
-- J. R. Reitz, F. J. Milford e R. W. Christy, *Foundations of Electromagnetic Theory*, Addison-Wesley (2008)

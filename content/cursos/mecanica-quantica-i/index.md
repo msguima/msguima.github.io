@@ -1,17 +1,17 @@
 ---
-title: "Mecânica Quântica I"
+title: "Quantum Mechanics I"
 level: "graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Fundamentos da mecânica quântica. Formalismo de Dirac. Equação de Schrödinger. Oscilador harmônico. Momento angular. Átomo de hidrogênio. Spin. Partículas idênticas. Teoria de perturbação estacionária.
+Foundations of quantum mechanics. Dirac formalism. Schrödinger equation. Harmonic oscillator. Angular momentum. Hydrogen atom. Spin. Identical particles. Stationary perturbation theory.
 
-## Bibliografia
+## Bibliography
 
-- D. J. Griffiths e D. F. Schroeter, *Introduction to Quantum Mechanics*, Cambridge (2018)
-- J. J. Sakurai e J. Napolitano, *Modern Quantum Mechanics*, Cambridge (2020)
-- C. Cohen-Tannoudji, B. Diu e F. Laloë, *Quantum Mechanics*, Wiley (2019)
+- D. J. Griffiths & D. F. Schroeter, *Introduction to Quantum Mechanics*, Cambridge (2018)
+- J. J. Sakurai & J. Napolitano, *Modern Quantum Mechanics*, Cambridge (2020)
+- C. Cohen-Tannoudji, B. Diu & F. Laloë, *Quantum Mechanics*, Wiley (2019)

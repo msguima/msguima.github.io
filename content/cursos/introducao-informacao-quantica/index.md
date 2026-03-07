@@ -1,17 +1,17 @@
 ---
-title: "Introdução à Informação Quântica"
+title: "Introduction to Quantum Information"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Conceitos fundamentais de informação quântica: bits quânticos, emaranhamento, desigualdades de Bell, teletransporte quântico, computação quântica básica, entropia de von Neumann, canais quânticos.
+Fundamental concepts of quantum information: qubits, entanglement, Bell inequalities, quantum teleportation, basic quantum computation, von Neumann entropy, quantum channels.
 
-## Bibliografia
+## Bibliography
 
-- M. A. Nielsen e I. L. Chuang, *Quantum Computation and Quantum Information*, Cambridge (2000)
+- M. A. Nielsen & I. L. Chuang, *Quantum Computation and Quantum Information*, Cambridge (2000)
 - M. M. Wilde, *Quantum Information Theory*, Cambridge (2013)
 - J. Preskill, *Quantum Information and Computation*, Lecture Notes (online)

@@ -1,34 +1,34 @@
 ---
-title: "Publicações"
-subtitle: "Artigos em periódicos com revisão por pares"
+title: "Publications"
+subtitle: "Peer-reviewed journal articles"
 ---
 
-## Métricas
+## Metrics
 
 | | |
 |---|---|
-| **Artigos publicados** | 86+ |
-| **Citações (Web of Science)** | 1.260+ |
-| **Citações (Google Scholar)** | 2.020+ |
-| **Citações (INSPIRE-HEP)** | 1.708+ |
-| **Índice-h (Web of Science)** | 18 |
-| **Índice-h (Google Scholar)** | 22 |
+| **Published articles** | 86+ |
+| **Citations (Web of Science)** | 1,260+ |
+| **Citations (Google Scholar)** | 2,020+ |
+| **Citations (INSPIRE-HEP)** | 1,708+ |
+| **h-index (Web of Science)** | 18 |
+| **h-index (Google Scholar)** | 22 |
 
 ---
 
-## Lista Completa
+## Full List
 
-A lista completa e atualizada de publicações está disponível nos seguintes perfis:
+The complete and up-to-date publication list is available at:
 
-- <i class="fas fa-book"></i> **[INSPIRE-HEP](https://inspirehep.net/authors/1028570)** — base de dados de referência em física de altas energias
-- <i class="fas fa-graduation-cap"></i> **[Google Scholar](https://scholar.google.com/citations?user=XXXXXXXXX)** — perfil com todas as citações
-- <i class="fas fa-id-card"></i> **[Currículo Lattes](http://lattes.cnpq.br/5257334599729020)** — plataforma oficial do CNPq
+- <i class="fas fa-book"></i> **[INSPIRE-HEP](https://inspirehep.net/authors/1028570)** — reference database for high-energy physics
+- <i class="fas fa-graduation-cap"></i> **[Google Scholar](https://scholar.google.com/citations?user=XXXXXXXXX)** — full citation profile
+- <i class="fas fa-id-card"></i> **[Currículo Lattes](http://lattes.cnpq.br/5257334599729020)** — official CNPq platform
 
 ---
 
-## Publicações Recentes Selecionadas
+## Selected Recent Publications
 
-### Informação Quântica em TQC (2023–2026)
+### Quantum Information in QFT (2023–2026)
 
 - M. S. Guimaraes, I. Roditi, S. P. Sorella, A. F. Vieira — *Relative entropy of single-mode squeezed states in QFT* — Eur. Phys. J. C **85**, 717 (2025) — [arXiv:2504.13148](https://arxiv.org/abs/2504.13148)
 
@@ -36,9 +36,9 @@ A lista completa e atualizada de publicações está disponível nos seguintes p
 
 - J. G. A. Caribé, M. S. Guimaraes, I. Roditi, S. P. Sorella — *Investigating the Araki–Uhlmann relative entropy between two coherent states in relativistic QFT* — Eur. Phys. J. C **85**, 1277 (2025) — [arXiv:2508.17165](https://arxiv.org/abs/2508.17165)
 
-- M. S. Guimaraes, I. Roditi, S. P. Sorella — *Weyl operators, Tomita-Takesaki theory, and Bell-CHSH inequality violations* — Phys. Rev. D **108**, 085026 (2023) — [arXiv:2309.02941](https://arxiv.org/abs/2309.02941) — 20 citações
+- M. S. Guimaraes, I. Roditi, S. P. Sorella — *Weyl operators, Tomita-Takesaki theory, and Bell-CHSH inequality violations* — Phys. Rev. D **108**, 085026 (2023) — [arXiv:2309.02941](https://arxiv.org/abs/2309.02941) — 20 citations
 
-### Problema de Gribov e Gauge Fixing
+### Gribov Problem & Gauge Fixing
 
 - N. Barrios, M. Peláez, M. S. Guimaraes, B. W. Mintz, L. F. Palhares — *Ghost-gluon vertex in the presence of the Gribov horizon* — Phys. Rev. D **109**, 094039 (2024) — [arXiv:2402.17534](https://arxiv.org/abs/2402.17534)
 
@@ -46,4 +46,4 @@ A lista completa e atualizada de publicações está disponível nos seguintes p
 
 ---
 
-*Para a lista completa, consulte os perfis acima.*
+*For the full list, please visit the profiles above.*

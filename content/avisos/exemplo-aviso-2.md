@@ -1,6 +1,6 @@
 ---
-title: "Vagas para Iniciação Científica 2026"
+title: "Undergraduate Research Openings 2026"
 date: 2026-03-01
 ---
 
-Há vagas disponíveis para Iniciação Científica (IC/PIBIC) em informação quântica e teoria quântica de campos. Interessados devem entrar em contato por email.
+Openings are available for undergraduate research (IC/PIBIC) in quantum information and quantum field theory. Interested students should get in touch by email.

@@ -1,8 +1,8 @@
 ---
-title: "Cursos"
-subtitle: "Disciplinas ministradas na UERJ"
+title: "Courses"
+subtitle: "Courses taught at UERJ"
 ---
 
-Abaixo estão listados os cursos que ministro ou já ministrei na UERJ. Cada página contém ementa, bibliografia, notas de aula e listas de exercícios.
+Below are the courses I teach or have taught at UERJ. Each page contains the syllabus, bibliography, lecture notes, and problem sets.
 
-**Para adicionar material a um curso:** basta colocar o PDF na pasta correspondente e editar o arquivo `.md` do curso. Nenhum conhecimento de HTML é necessário.
+**Note:** All courses are taught in Portuguese. Course materials (lecture notes, problem sets) are generally in Portuguese as well.

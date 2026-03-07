@@ -1,17 +1,17 @@
 ---
-title: "Mecânica Estatística"
+title: "Statistical Mechanics"
 level: "pos-graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Fundamentos de mecânica estatística. Ensembles microcanônico, canônico e grão-canônico. Gases quânticos (Bose-Einstein, Fermi-Dirac). Transições de fase. Modelo de Ising. Introdução ao grupo de renormalização.
+Foundations of statistical mechanics. Microcanonical, canonical, and grand canonical ensembles. Quantum gases (Bose-Einstein, Fermi-Dirac). Phase transitions. Ising model. Introduction to the renormalization group.
 
-## Bibliografia
+## Bibliography
 
 - M. Kardar, *Statistical Physics of Particles*, Cambridge (2007)
-- R. K. Pathria e P. D. Beale, *Statistical Mechanics*, Elsevier (2011)
+- R. K. Pathria & P. D. Beale, *Statistical Mechanics*, Elsevier (2011)
 - L. E. Reichl, *A Modern Course in Statistical Physics*, Wiley (2016)

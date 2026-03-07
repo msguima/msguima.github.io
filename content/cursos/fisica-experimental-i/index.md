@@ -1,16 +1,16 @@
 ---
-title: "Física Experimental I"
+title: "Experimental Physics I"
 level: "graduacao"
 semester: ""
 schedule: ""
 room: ""
 ---
 
-## Ementa
+## Syllabus
 
-Laboratório de mecânica. Teoria de erros e análise de dados. Experimentos de cinemática, dinâmica, conservação de energia e momento, oscilações.
+Mechanics laboratory. Error theory and data analysis. Experiments in kinematics, dynamics, energy and momentum conservation, oscillations.
 
-## Bibliografia
+## Bibliography
 
-- Material didático fornecido pelo laboratório
-- J. R. Taylor, *Introdução à Análise de Erros*, Bookman (2012)
+- Laboratory handouts
+- J. R. Taylor, *An Introduction to Error Analysis*, University Science Books (1997)

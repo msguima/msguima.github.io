@@ -1,21 +1,19 @@
 baseURL = "https://msguima.github.io/"
-languageCode = "pt-br"
-title = "Marcelo S. Guimarães — Física Teórica — UERJ"
+title = "Marcelo S. Guimarães"
 theme = "academic"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 disableKinds = ["taxonomy", "term"]
 
+# ── Shared parameters ──
 [params]
   author = "Marcelo Santos Guimarães"
-  description = "Página acadêmica de Marcelo Santos Guimarães — Professor Associado de Física Teórica, UERJ"
-  tagline = "Física Teórica · Teoria Quântica de Campos · Informação Quântica"
+  photo = "/img/photo.svg"
   email = "msguimaraes@uerj.br"
   email2 = "marceloguima@gmail.com"
   phone = "+55 21 23340228"
   address = "Rua São Francisco Xavier 524, sala 3007-E, Maracanã, Rio de Janeiro, RJ, 20550-900"
-  institution = "Universidade do Estado do Rio de Janeiro"
-  department = "Departamento de Física Teórica — Instituto de Física"
-  photo = "/img/photo.svg"
   inspire = "https://inspirehep.net/authors/1028570"
   scholar = "https://scholar.google.com/citations?user=XXXXXXXXX"
   lattes = "http://lattes.cnpq.br/5257334599729020"
@@ -32,36 +30,94 @@ disableKinds = ["taxonomy", "term"]
   [markup.highlight]
     style = "monokai"
 
-[menu]
-  [[menu.main]]
-    name = "Início"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Pesquisa"
-    url = "/pesquisa/"
+# ── Languages ──
+
+[languages]
+
+  [languages.pt]
+    languageCode = "pt-br"
+    languageName = "Português"
     weight = 2
-  [[menu.main]]
-    name = "Publicações"
-    url = "/publicacoes/"
-    weight = 3
-  [[menu.main]]
-    name = "Cursos"
-    url = "/cursos/"
-    weight = 4
-  [[menu.main]]
-    name = "Estudantes"
-    url = "/estudantes/"
-    weight = 5
-  [[menu.main]]
-    name = "Eventos"
-    url = "/eventos/"
-    weight = 6
-  [[menu.main]]
-    name = "Links"
-    url = "/links/"
-    weight = 7
-  [[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 8
+    title = "Marcelo S. Guimarães — Física Teórica — UERJ"
+    [languages.pt.params]
+      description = "Página acadêmica de Marcelo Santos Guimarães — Professor Associado de Física Teórica, UERJ"
+      tagline = "Física Teórica · Teoria Quântica de Campos · Informação Quântica"
+      institution = "Universidade do Estado do Rio de Janeiro"
+      department = "Departamento de Física Teórica — Instituto de Física"
+
+    [[languages.pt.menu.main]]
+      name = "Início"
+      url = "/pt/"
+      weight = 1
+    [[languages.pt.menu.main]]
+      name = "Pesquisa"
+      url = "/pt/pesquisa/"
+      weight = 2
+    [[languages.pt.menu.main]]
+      name = "Publicações"
+      url = "/pt/publicacoes/"
+      weight = 3
+    [[languages.pt.menu.main]]
+      name = "Cursos"
+      url = "/pt/cursos/"
+      weight = 4
+    [[languages.pt.menu.main]]
+      name = "Estudantes"
+      url = "/pt/estudantes/"
+      weight = 5
+    [[languages.pt.menu.main]]
+      name = "Eventos"
+      url = "/pt/eventos/"
+      weight = 6
+    [[languages.pt.menu.main]]
+      name = "Links"
+      url = "/pt/links/"
+      weight = 7
+    [[languages.pt.menu.main]]
+      name = "CV"
+      url = "/pt/cv/"
+      weight = 8
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+    title = "Marcelo S. Guimarães — Theoretical Physics — UERJ"
+    [languages.en.params]
+      description = "Academic page of Marcelo Santos Guimarães — Associate Professor of Theoretical Physics, UERJ"
+      tagline = "Theoretical Physics · Quantum Field Theory · Quantum Information"
+      institution = "Rio de Janeiro State University (UERJ)"
+      department = "Department of Theoretical Physics — Institute of Physics"
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Research"
+      url = "/pesquisa/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Publications"
+      url = "/publicacoes/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Courses"
+      url = "/cursos/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Students"
+      url = "/estudantes/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "Events"
+      url = "/eventos/"
+      weight = 6
+    [[languages.en.menu.main]]
+      name = "Links"
+      url = "/links/"
+      weight = 7
+    [[languages.en.menu.main]]
+      name = "CV"
+      url = "/cv/"
+      weight = 8
