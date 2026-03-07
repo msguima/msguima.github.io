@@ -1,6 +1,6 @@
 ---
 title: "Electromagnetism"
-level: "graduacao"
+level: "graduate"
 semester: ""
 schedule: ""
 room: ""
