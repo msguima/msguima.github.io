@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-inner">
+    <img src="{{ .Site.Params.photo }}" alt="Foto de {{ .Site.Params.author }}" class="hero-photo">
+    <div class="hero-text">
+      <h1>Marcelo S. Guimarães</h1>
+      <div class="hero-subtitle">Professor Associado — {{ .Site.Params.department }}</div>
+      <div class="hero-subtitle">{{ .Site.Params.institution }}</div>
+      <div class="hero-tagline">{{ .Site.Params.tagline }}</div>
+      <div class="hero-links">
+        <a href="mailto:{{ .Site.Params.email }}"><i class="fas fa-envelope"></i> Email</a>
+        <a href="{{ .Site.Params.inspire }}" target="_blank"><i class="fas fa-book"></i> INSPIRE-HEP</a>
+        <a href="{{ .Site.Params.scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i> Scholar</a>
+        <a href="{{ .Site.Params.lattes }}" target="_blank"><i class="fas fa-id-card"></i> Lattes</a>
+        <a href="{{ .Site.Params.github }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-wrap">
+
+  <!-- Quick-Access Cards -->
+  <div class="cards-row">
+    <a href="/cursos/" class="card">
+      <div class="card-icon">📚</div>
+      <h3>Cursos</h3>
+      <p>Notas de aula, listas e materiais</p>
+    </a>
+    <a href="/pesquisa/" class="card">
+      <div class="card-icon">🔬</div>
+      <h3>Pesquisa</h3>
+      <p>Linhas de pesquisa e projetos</p>
+    </a>
+    <a href="/estudantes/" class="card">
+      <div class="card-icon">🎓</div>
+      <h3>Estudantes</h3>
+      <p>IC, mestrado e doutorado</p>
+    </a>
+    <a href="/publicacoes/" class="card">
+      <div class="card-icon">📄</div>
+      <h3>Publicações</h3>
+      <p>Artigos e preprints</p>
+    </a>
+  </div>
+
+  <!-- Short Bio -->
+  <section class="bio-section">
+    <h2>Sobre</h2>
+    {{ .Content }}
+  </section>
+
+  <!-- Latest Announcements -->
+  {{ $avisos := (where .Site.RegularPages "Section" "avisos") }}
+  {{ if $avisos }}
+  <section class="announcements">
+    <h2>Avisos Recentes</h2>
+    {{ range first 5 (sort $avisos "Date" "desc") }}
+    <div class="announcement-item">
+      <div class="date">{{ .Date.Format "02 Jan 2006" }}</div>
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      <p>{{ .Summary }}</p>
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}

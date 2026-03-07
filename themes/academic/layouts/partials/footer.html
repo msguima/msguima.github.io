@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>{{ .Site.Params.author }}</strong><br>
+      {{ .Site.Params.department }}<br>
+      {{ .Site.Params.institution }}
+    </div>
+    <div>
+      <a href="mailto:{{ .Site.Params.email }}"><i class="fas fa-envelope"></i> {{ .Site.Params.email }}</a><br>
+      <a href="{{ .Site.Params.inspire }}" target="_blank"><i class="fas fa-book"></i> INSPIRE-HEP</a> ·
+      <a href="{{ .Site.Params.lattes }}" target="_blank">Lattes</a> ·
+      <a href="{{ .Site.Params.scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i> Scholar</a>
+    </div>
+  </div>
+</footer>

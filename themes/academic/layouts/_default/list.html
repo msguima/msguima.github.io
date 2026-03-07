@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="text-muted">{{ . }}</p>{{ end }}
+  </div>
+
+  <article>
+    {{ .Content }}
+  </article>
+
+  {{ $pages := .Pages }}
+  {{ if $pages }}
+  <ul>
+    {{ range $pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.summary }} — {{ . }}{{ end }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ end }}

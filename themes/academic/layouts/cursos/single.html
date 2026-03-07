@@ -1,0 +1,98 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="breadcrumb">
+    <a href="/">Início</a> <span>›</span>
+    <a href="/cursos/">Cursos</a> <span>›</span>
+    {{ .Title }}
+  </div>
+
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <!-- Course metadata -->
+  <div class="course-meta">
+    {{ with .Params.level }}
+    <div class="course-meta-item">
+      <strong>Nível</strong>
+      {{ if eq . "pos-graduacao" }}Pós-graduação{{ else }}Graduação{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.semester }}
+    <div class="course-meta-item">
+      <strong>Semestre</strong>
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ with .Params.schedule }}
+    <div class="course-meta-item">
+      <strong>Horário</strong>
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ with .Params.room }}
+    <div class="course-meta-item">
+      <strong>Sala</strong>
+      {{ . }}
+    </div>
+    {{ end }}
+  </div>
+
+  <article>
+    {{ .Content }}
+  </article>
+
+  <!-- Lecture Notes -->
+  {{ with .Params.notas }}
+  <h2>Notas de Aula</h2>
+  <table>
+    <thead><tr><th>#</th><th>Tópico</th><th>Arquivo</th></tr></thead>
+    <tbody>
+    {{ range . }}
+    <tr>
+      <td>{{ .num }}</td>
+      <td>{{ .topic }}</td>
+      <td><a href="{{ .file }}">{{ .file | path.Base }}</a></td>
+    </tr>
+    {{ end }}
+    </tbody>
+  </table>
+  {{ end }}
+
+  <!-- Problem Sets -->
+  {{ with .Params.listas }}
+  <h2>Listas de Exercícios</h2>
+  <table>
+    <thead><tr><th>#</th><th>Tópico</th><th>Arquivo</th><th>Prazo</th></tr></thead>
+    <tbody>
+    {{ range . }}
+    <tr>
+      <td>{{ .num }}</td>
+      <td>{{ .topic }}</td>
+      <td><a href="{{ .file }}">{{ .file | path.Base }}</a></td>
+      <td>{{ with .deadline }}{{ . }}{{ else }}—{{ end }}</td>
+    </tr>
+    {{ end }}
+    </tbody>
+  </table>
+  {{ end }}
+
+  <!-- Exam Dates -->
+  {{ with .Params.provas }}
+  <h2>Datas das Provas</h2>
+  <table>
+    <thead><tr><th>Prova</th><th>Data</th><th>Observação</th></tr></thead>
+    <tbody>
+    {{ range . }}
+    <tr>
+      <td>{{ .name }}</td>
+      <td>{{ .date }}</td>
+      <td>{{ with .note }}{{ . }}{{ else }}—{{ end }}</td>
+    </tr>
+    {{ end }}
+    </tbody>
+  </table>
+  {{ end }}
+
+</div>
+{{ end }}

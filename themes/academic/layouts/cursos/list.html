@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="text-muted">{{ . }}</p>{{ end }}
+  </div>
+
+  {{ .Content }}
+
+  {{ $grad := where .Pages "Params.level" "pos-graduacao" }}
+  {{ $undergrad := where .Pages "Params.level" "graduacao" }}
+
+  {{ if $grad }}
+  <h2>Pós-Graduação</h2>
+  <div class="course-grid">
+    {{ range $grad }}
+    <a href="{{ .RelPermalink }}" class="course-card">
+      <span class="course-level grad">Pós-graduação</span>
+      <h3>{{ .Title }}</h3>
+      {{ with .Params.semester }}<span class="text-sm text-muted">{{ . }}</span>{{ end }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if $undergrad }}
+  <h2>Graduação</h2>
+  <div class="course-grid">
+    {{ range $undergrad }}
+    <a href="{{ .RelPermalink }}" class="course-card">
+      <span class="course-level undergrad">Graduação</span>
+      <h3>{{ .Title }}</h3>
+      {{ with .Params.semester }}<span class="text-sm text-muted">{{ . }}</span>{{ end }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}
