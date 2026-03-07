@@ -9,13 +9,13 @@ disableKinds = ["taxonomy", "term"]
 # ── Shared parameters ──
 [params]
   author = "Marcelo Santos Guimarães"
-  photo = "/img/photo.svg"
+  photo = "/img/photo.jpg"
   email = "msguimaraes@uerj.br"
   email2 = "marceloguima@gmail.com"
   phone = "+55 21 23340228"
   address = "Rua São Francisco Xavier 524, sala 3007-E, Maracanã, Rio de Janeiro, RJ, 20550-900"
-  inspire = "https://inspirehep.net/authors/1028570"
-  scholar = "https://scholar.google.com/citations?user=XXXXXXXXX"
+  inspire = "https://inspirehep.net/authors/1045309"
+  scholar = "https://scholar.google.com/citations?user=pJ53bvYAAAAJ"
   lattes = "http://lattes.cnpq.br/5257334599729020"
   orcid = ""
   github = "https://github.com/msguima"
